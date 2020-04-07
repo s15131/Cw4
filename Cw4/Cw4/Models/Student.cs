@@ -7,6 +7,7 @@ namespace Cw4.Models
 {
     public class Student
     {
+        public int idStudenta { get; set; }
         public string IndexNumber { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
