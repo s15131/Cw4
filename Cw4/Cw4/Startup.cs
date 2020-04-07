@@ -18,8 +18,7 @@ namespace Cw4
 {
     public class Startup
     {
-        private object context;
-        private object next;
+     
 
         public Startup(IConfiguration configuration)
         {
