@@ -8,7 +8,7 @@ namespace Cw4.Services
 {
     public interface IStudentDbService
     {
-        IEnumerable<Student> GetStudents();
+        
 
         public string GetStudent(string index);
 

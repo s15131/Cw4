@@ -13,7 +13,6 @@ namespace Cw4.Services
     {
         public string GetStudent(string index)
         {
-            var student = new List<Student>();
             using (var ConString = new SqlConnection("Data Source=db-mssql;Initial Catalog=s15131;Integrated Security=True"))
             using (SqlCommand com = new SqlCommand())
             {
@@ -29,20 +28,11 @@ namespace Cw4.Services
 
                 }
             }
-            
-                
-            
+
+
+
             return null;
         }
 
-        private Student Ok(List<Student> student)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<Student> GetStudents()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
