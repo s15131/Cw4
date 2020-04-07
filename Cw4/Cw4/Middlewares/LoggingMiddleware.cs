@@ -23,7 +23,7 @@ namespace Cw4.Middlewares
                 httpContext.Request.EnableBuffering();
                 string sciezka = httpContext.Request.Path; //"weatherforecast/cos"
                 string querystring = httpContext.Request.QueryString.ToString();
-                string metoda = httpContext.Request.Method;
+                string metoda = httpContext.Request.Method.ToString();
                 string bodyStr = "";
 
                 using (StreamReader reader = new StreamReader(httpContext.Request.Body, Encoding.UTF8, true, 1024, true))
