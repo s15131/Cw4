@@ -14,6 +14,7 @@ namespace Cw4.Models
         public Cw10DbContext()
         {
 
+
         }
 
         public Cw10DbContext(DbContextOptions options)
