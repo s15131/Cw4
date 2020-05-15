@@ -11,7 +11,8 @@ namespace Cw4.Services
         
 
         public string GetStudent(string index);
-
+        public string GetName(string index);
+        public bool Logowanie(string index, string haslo);
 
 
     }

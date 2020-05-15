@@ -11,5 +11,6 @@ namespace Cw4.Models
         public string Semester { get; set; }
         public string IdStudy { get; set; }
         public string StartDate { get; set; }
+        public object IdStudyNavigation { get; internal set; }
     }
 }
